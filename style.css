@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 
+    'Lucida Grande', 'Lucida Sans Unicode', Geneva,
+    Verdana, sans-serif;
+}
+/* Header AND Home */
+.header{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 15vh;
+    width: 100%;
+    background-color: white;
+    color: salmon;
+}
+.header{
+    overflow: hidden;
+    background-color: #fff;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.subhead{
+    display: flex;
+    align-items: center;
+}
+.subhome{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 100px;
+    margin-top: 100px;
+    height: 40vh;
+}
+.home{
+    margin-top: 150px;
+}
+.pichome{
+    border: 2px solid salmon;
+    width: 450px;
+    height: 500px;
+    background: salmon;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin:auto;
+}
+.home{
+    height: 85vh;
+    color: #8072fa;
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+}
+.nav{
+    padding: 15px;
+}
+.nav>span{
+    margin: 0 20px;
+    color: salmon;
+    font-weight: bold;
+    padding: 10px;
+}
+.nav>span:hover{
+    background: salmon;
+    color: #fff;
+    cursor: pointer;
+}
+#ImgPro{
+    border: #8072fa 50px solid;
+}
+
+/* Project and Contacts */
+.project{
+    height: 70vh;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.project>div{
+    width: 50%;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
